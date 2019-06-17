@@ -29,8 +29,8 @@ h1 {
   }
 }
 
-.jabin-bold {
-  color: rgba(255, 255, 255, 0.3);
+.letter {
+  color: rgba(255, 255, 255, 0.15);
   font-family: 'CG', sans-serif;
   font-size: 200px;
   font-weight: 700;
@@ -39,7 +39,7 @@ h1 {
 }
 
 @supports (font-variation-settings: normal) {
-  .jabin-bold {
+  .letter {
     font-family: 'Jabin VF', sans-serif;
     font-variation-settings: 'wght' 700, 'XXXX' 0;
     font-weight: 700;
@@ -57,13 +57,13 @@ h1 {
 }
 
 @media screen and (min-width: 550px) {
-  .jabin-bold {
+  .letter {
     font-size: 300px;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .jabin-bold {
+  .letter {
     font-size: 460px;
   }
 }

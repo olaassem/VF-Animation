@@ -1,0 +1,164 @@
+.header-wrapper {
+  padding-top: 200px;
+  position: relative;
+}
+
+@media screen and (min-width: 550px) {
+  .header-wrapper {
+    padding-top: 300px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .header-wrapper {
+    padding-top: 400px;
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 11vw;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin: 4px 20px;
+}
+
+@supports (font-variation-settings: normal) {
+  h1 {
+    font-variation-settings: "wght" 100;
+  }
+}
+
+.jabin-bold {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'CG', sans-serif;
+  font-size: 200px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@supports (font-variation-settings: normal) {
+  .jabin-bold {
+    font-family: 'Jabin VF', sans-serif;
+    font-variation-settings: 'wght' 700, 'XXXX' 0;
+    font-weight: 700;
+    animation: slide 3s infinite alternate;
+  }
+
+  @keyframes slide {
+    0% {
+      font-variation-settings: 'wght' 700, 'XXXX' 100;
+    }
+    100% {
+      font-variation-settings: 'wght' 40, 'XXXX' 0;
+    }
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .jabin-bold {
+    font-size: 300px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .jabin-bold {
+    font-size: 460px;
+  }
+}
+
+.letter-v,
+.letter-f {
+  position: absolute;
+}
+
+.letter-v {
+  left: -10px;
+  top: 0px;
+}
+
+.letter-f {
+  left: 130px;
+  top: 60px;
+}
+
+.byline {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 4px 32px;
+  text-transform: uppercase;
+}
+
+@supports (font-variation-settings: normal) {
+  .byline {
+    font-variation-settings: "wght" 900, "ital" 0;
+    font-weight: 900;
+  }
+}
+
+
+@media screen and (min-width: 550px) {
+  .letter-v {
+    left: -10px;
+    top: -20px;
+  }
+
+  .letter-f {
+    left: 200px;
+    top: 90px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .letter-v {
+    left: -160px;
+    top: -20px;
+  }
+
+  .letter-f {
+    left: 180px;
+    top: 120px;
+  }
+
+  .byline {
+    font-size: 24px;
+  }
+}
+
+.hdr-filler,
+.byline-filler {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  position: absolute;
+}
+
+.hdr-filler {
+  height: 70%;
+  left: -40px;
+  width: 64%;
+}
+
+.byline-filler {
+  height: 300%;
+  left: -40px;
+  top: -10px;
+  width: 45%;
+}
+
+.intro {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  margin: 80px 32px;
+  /* padding-right: 30%; */
+}
+
+@supports (font-variation-settings: normal) {
+  .intro {
+    font-variation-settings: "wght" 500, "ital" 1;
+    font-weight: 500;
+  }
+}

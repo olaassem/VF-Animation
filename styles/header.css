@@ -94,7 +94,7 @@ h1 {
 
 @supports (font-variation-settings: normal) {
   .byline {
-    font-variation-settings: "wght" 900, "ital" 0;
+    font-variation-settings: "wght" 900;
     font-weight: 900;
   }
 }

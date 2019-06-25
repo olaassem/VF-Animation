@@ -1,9 +1,9 @@
 
 /* variable fonts */
 @font-face {
-  font-display: fallback;
+  font-display: swap;
   font-family: 'FF Meta VF';
-  font-style: italic;
+  font-style: normal italic;
   font-weight: 100 900;
   src: url('https://variablefonts.monotype.com/MetaVariableDemo-Set.woff2') format('woff2');
 }
